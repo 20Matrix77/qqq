@@ -1,12 +1,6 @@
-try:
-    import discord
-    import os
-    from discord.ext import commands
-except ModuleNotFoundError as e:
-    os.system('pip3 install discord')
-    os.system('pip install discord')
-    os.system('sudo apt-get -y install python-discord')
-    os.system('sudo apt-get -y install discord')
+import discord
+import os
+from discord.ext import commands
 
 intents = discord.Intents.default()
 
