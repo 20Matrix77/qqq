@@ -1,5 +1,6 @@
 try:
-    import discord, os
+    import discord
+    import os
     from discord.ext import commands
 except ModuleNotFoundError as e:
     os.system('pip3 install discord')
